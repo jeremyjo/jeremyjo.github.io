@@ -22,8 +22,8 @@
     <style>
       body {
         font-family: "Dosis";
-        /* width: 80%;
-        margin: 0 auto; */
+        width: 80%;
+        margin: 0 auto;
       }
 
       #content {
@@ -44,14 +44,45 @@
       }
 
       #main-footer {
-        background-image: url("images/1.jpg");
-        background-repeat: no-repeat;
-        background-position: center;
-        background-size: cover;
-        position: absolute;
-        bottom: 0;
-        width: 100%;
-        height: 4.5rem;
+        margin-top: 260px;
+        height: 7rem;
+      }
+      .footer-content {
+        display: flex;
+        justify-content: space-between;
+        height: 7rem;
+        align-items: center;
+      }
+
+      .SocialMedia .fab {
+        margin-right: 1rem;
+        height: 50px;
+        width: 50px;
+        line-height: 50px;
+        text-align: center;
+        padding: 0.5rem;
+      }
+      .containerFT {
+        max-width: 1280px;
+        padding: 0 1.5rem;
+        margin: auto;
+        overflow: hidden;
+      }
+      .comp-ex-footer {
+        margin-top: 30rem;
+      }
+      @media (max-width: 570px) {
+        #main-footer {
+          height: 10rem;
+        }
+        .comp-ex-footer {
+          margin-top: 0.5rem;
+        }
+        .footer-content {
+          flex-direction: column;
+          padding: 1rem;
+          height: 10rem;
+        }
       }
     </style>
   </head>
@@ -60,12 +91,14 @@
     <!-- body content  -->
     <div id="content">
       <div id="content-wrap">
-        <nav class="all-sides-pa-4">
+        <nav class="all-sides-pa-4 all-sides-ma-4">
           <ul class="navbarUL">
-            <li class="activeLI"><a href="navbar.html">Home</a></li>
-            <li><a href="navbar2.html">Our Ingredients</a></li>
-            <li><a href="navbar3.html">About Us</a></li>
-            <li><a href="navbar4.html">Contact</a></li>
+            <li class="activeLI font-3"><a href="navbar.html">Home</a></li>
+            <li class="font-3">
+              <a href="navbar2.html">Our Ingredients</a>
+            </li>
+            <li class="font-3"><a href="navbar3.html">About Us</a></li>
+            <li class="font-3"><a href="navbar4.html">Contact</a></li>
           </ul>
         </nav>
         <div class="fragment all-sides-ma-4 all-sides-pa-4">
@@ -170,30 +203,18 @@
         <!-- Table -->
       </div>
 
-      <footer id="main-footer">
+      <footer id="main-footer" class="darkBlue_bg">
         <div class="footer-content containerFT">
-          <!-- <p>Copyright &copy;</p> -->
-          <div>
-            Contuct us:
-            <a href="mailto:awesome-framework@gmail.com" style="color: white;">
-              <p>awesome-framework@gmail.com</p>
-            </a>
-          </div>
+          <p class="white_tx">
+            Copyright &copy; 2020. <br />EcoCup, San Diego, CA.
+          </p>
           <div class="SocialMedia">
-            <a
-              href="https://www.facebook.com/profile.php?id=1644859997"
-              target="_blank"
-              ><i class="fab fa-facebook-f fa-3x"></i>
+            <a href="https://www.facebook.com/" target="_blank"
+              ><i class="fab fa-facebook-f fa-3x white_tx"></i>
             </a>
 
-            <a
-              href="https://www.instagram.com/diana_di_california/"
-              target="_blank"
-              ><i class="fab fa-instagram-square fa-3x"></i
-            ></a>
-
-            <a href="https://github.com/DianaDi777" target="_blank"
-              ><i class="fab fa-github fa-3x"></i
+            <a href="https://www.instagram.com/" target="_blank"
+              ><i class="fab fa-instagram-square fa-3x white_tx"></i
             ></a>
           </div>
         </div>
