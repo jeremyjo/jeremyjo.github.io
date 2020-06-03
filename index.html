@@ -20,119 +20,128 @@
     <link rel="stylesheet" href="css/main.css" />
 
     <style>
-        body {
-            font-family: "Dosis";
-        }
+      body {
+        font-family: "Dosis";
+      }
 
-        #content {
-            position: relative;
-            min-height: 100vh;
-        }
+      #content {
+        position: relative;
+        min-height: 100vh;
+      }
 
-        p {
-            margin-bottom: 1rem;
-        }
+      p {
+        margin-bottom: 1rem;
+      }
 
-        img {
-            border-radius: 8px;
-        }
+      img {
+        border-radius: 8px;
+      }
 
-        #content-wrap {
-            padding-bottom: 4.5rem;
-        }
+      #content-wrap {
+        padding-bottom: 4.5rem;
+      }
 
-        #main-footer {
-            background-image: url("images/1.jpg");
-            background-repeat: no-repeat;
-            background-position: center;
-            background-size: cover;
-            position: absolute;
-            bottom: 0;
-            width: 100%;
-            height: 4.5rem;
-        }
+      #main-footer {
+        background-image: url("images/1.jpg");
+        background-repeat: no-repeat;
+        background-position: center;
+        background-size: cover;
+        position: absolute;
+        bottom: 0;
+        width: 100%;
+        height: 4.5rem;
+      }
 
-        .containerFT {
-          display: flex !important;
-          justify-content: space-between;
-          padding: 1rem 1rem 0 1rem;
-        }
-
+      .containerFT {
+        display: flex !important;
+        justify-content: space-between;
+        padding: 1rem 1rem 0 1rem;
+      }
     </style>
-
   </head>
 
   <body>
     <!-- body content  -->
     <div id="content">
-        <div id = "content-wrap">
+      <div id="content-wrap">
+        <nav>
+          <ul class="navbarUL">
+            <li><a href="index.html">Home</a></li>
+            <li class="activeLI">
+              <a href="pages/page1.html">Our Upcoming Products</a>
+            </li>
+            <li><a href="navbar3.html">About Us</a></li>
+            <li><a href="navbar4.html">Contact</a></li>
+          </ul>
+        </nav>
 
-            <nav>
-                <ul class = "navbarUL">
-                    <li class = "activeLI"><a href = "index.html" >Home</a></li>
-                    <li><a href = "pages/page1.html">Our Upcoming Products</a></li>
-                    <li ><a href = "navbar3.html">About Us</a></li>
-                    <li><a href = "navbar4.html">Contact</a></li>
-                </ul>
-            </nav>
+        <h1 class="centerGroup text-center">Tea & Coffee</h1>
+        <!-- <h2>Welcome to Tea & Coffee!</h2> -->
 
-
-            <h1 class = "centerGroup text-center">Tea & Coffee </h1>
-            <h2>Welcome to Tea & Coffee!</h2>
-    
-            <div class = "col-1 width50p centerGroup">
-                <p>There's nothing like a healthy refreshment!</p>
-                <p>Our tea bags pack an enormous amount of flavor into their small round pouches. Our unbleached, round tea bags are free of excess wrapping, strings, tags and staples.</p>
-                <p>When you want a convenient cup of green, black, or iced tea, peruse our impressive selection of tea bags and buy the one that suits your mood. Organic and loose leaf teas are also available to make you smile.</p>
-            </div>
-
-            <!-- Grid -->
-            <div class = "col-3 width90p centerGroup">
-                <div class = "col-1-embed">
-                    <img src = "images/4.jpg" class = "centerGroup">
-                    <p class = "text-center">Key Lime Herbal</p>
-                </div>
-                <div class = "col-1-embed">
-                    <img src = "images/blue.jpg" class = "centerGroup">
-                    <p class = "text-center">Blue Mango Iced Tea</p>
-                </div>
-                <div class = "col-1-embed">
-                    <img src = "images/8.jpg" class = "centerGroup">
-                    <p class = "text-center">Earl Grey Moonlight</p>
-                </div>
-            </div>
-
-            <!-- Table -->
-            <div id = "bodyContentTea">
-                <h3 class = "text-center">Our Tea & Coffee Products:</h3>
-                <table class = "centerGroup stripes border-outline border-row border-grid responsive-table lgihtBrown_bg text-center">
-                    <tr>
-                        <th class>Products</th>
-                        <th>Size</th>
-                        <th>Price</th>
-                    </tr>
-                    <tr>
-                        <td>Key Lime Herbal</td>
-                        <td>Cup</td>
-                        <td>$0.32</td>
-                    </tr>
-                    <tr>
-                        <td>Blue Mango Iced Tea</td>
-                        <td>Cup</td>
-                        <td>$0.20</td>
-                    </tr>
-                    <tr>
-                        <td>Earl Grey Moonlight</td>
-                        <td>Cup</td>
-                        <td>$0.15</td>
-                    </tr>
-                </table>
-            </div>  
+        <div class="col-1 width50p centerGroup">
+          <p>There's nothing like a healthy refreshment!</p>
+          <p>
+            Our tea bags pack an enormous amount of flavor into their small
+            round pouches. Our unbleached, round tea bags are free of excess
+            wrapping, strings, tags and staples.
+          </p>
+          <p>
+            When you want a convenient cup of green, black, or iced tea, peruse
+            our impressive selection of tea bags and buy the one that suits your
+            mood. Organic and loose leaf teas are also available to make you
+            smile.
+          </p>
         </div>
-    
+
+        <!-- Grid -->
+        <div class="col-3 width90p centerGroup">
+          <div class="col-1-embed">
+            <img src="images/4.jpg" class="centerGroup" />
+            <p class="text-center">Key Lime Herbal</p>
+          </div>
+          <div class="col-1-embed">
+            <img src="images/blue.jpg" class="centerGroup" />
+            <p class="text-center">Blue Mango Iced Tea</p>
+          </div>
+          <div class="col-1-embed">
+            <img src="images/8.jpg" class="centerGroup" />
+            <p class="text-center">Earl Grey Moonlight</p>
+          </div>
+        </div>
+
+        <!-- Table -->
+        <div id="bodyContentTea">
+          <h3 class="text-center">Our Tea & Coffee Products:</h3>
+          <table
+            class="centerGroup stripes border-outline border-row border-grid responsive-table lgihtBrown_bg text-center"
+          >
+            <tr class="white_bg">
+              <th>Products</th>
+              <th>Size</th>
+              <th>Price</th>
+            </tr>
+            <tr>
+              <td>Key Lime Herbal</td>
+              <td>Cup</td>
+              <td>$0.32</td>
+            </tr>
+            <tr class="white_bg">
+              <td>Blue Mango Iced Tea</td>
+              <td>Cup</td>
+              <td>$0.20</td>
+            </tr>
+            <tr>
+              <td>Earl Grey Moonlight</td>
+              <td>Cup</td>
+              <td>$0.15</td>
+            </tr>
+          </table>
+        </div>
+      </div>
+
       <footer id="main-footer" class="darkBlue_bg">
         <div class="footer-content containerFT">
-          <p class="white_tx ">
+          <p class="white_tx">
             Copyright &copy; 2020. <br />Tea and Coffee, San Diego, CA.
           </p>
           <div class="SocialMedia">
@@ -146,8 +155,8 @@
           </div>
         </div>
       </footer>
-
-    </div>      <!-- end of div#content -->
-    <script src = "scripts/main.js"></script>
+    </div>
+    <!-- end of div#content -->
+    <script src="scripts/main.js"></script>
   </body>
 </html>
