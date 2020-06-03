@@ -2,7 +2,7 @@
 <html lang="en">
   <head>
     <meta charset="UTF-8" />
-    <title>Tea & Coffee</title>
+    <title>Upcoming Produts</title>
     <meta
       name="viewport"
       content="width=device-width, initial-scale=1, shrink-to-fit=no"
@@ -22,8 +22,6 @@
     <style>
       body {
         font-family: "Dosis";
-        /* width: 80%;
-        margin: 0 auto; */
       }
 
       #content {
@@ -44,54 +42,20 @@
       }
 
       #main-footer {
-        margin-top: 260px;
-        height: 7rem;
         background-image: url("../images/1.jpg");
         background-repeat: no-repeat;
         background-position: center;
         background-size: cover;
-        /* position: absolute; */
+        position: absolute;
         bottom: 0;
         width: 100%;
-        /* height: 4.5rem; */
-      }
-      
-      .footer-content {
-        display: flex;
-        justify-content: space-between;
-        height: 7rem;
-        align-items: center;
+        height: 4.5rem;
       }
 
-      .SocialMedia .fab {
-        margin-right: 1rem;
-        height: 50px;
-        width: 50px;
-        line-height: 50px;
-        text-align: center;
-        padding: 0.5rem;
-      }
       .containerFT {
-        max-width: 1280px;
-        padding: 0 1.5rem;
-        margin: auto;
-        overflow: hidden;
-      }
-      .comp-ex-footer {
-        margin-top: 30rem;
-      }
-      @media (max-width: 570px) {
-        #main-footer {
-          height: 10rem;
-        }
-        .comp-ex-footer {
-          margin-top: 0.5rem;
-        }
-        .footer-content {
-          flex-direction: column;
-          padding: 1rem;
-          height: 10rem;
-        }
+        display: flex !important;
+        justify-content: space-between;
+        padding: 1rem 1rem 0 1rem;
       }
     </style>
   </head>
@@ -100,128 +64,79 @@
     <!-- body content  -->
     <div id="content">
       <div id="content-wrap">
-        <nav class="all-sides-pa-4 all-sides-ma-4">
+        <nav>
           <ul class="navbarUL">
-            <li class="activeLI"><a href="../pages/page1.html">Home</a></li>
-            <li class="">
-              <a href="../index.html">Our Upcoming Products</a>
+            <li><a href="../index.html">Home</a></li>
+            <li class="activeLI">
+              <a href="../pages/page1.html">Our Upcoming Products</a>
             </li>
-            <li class=""><a href="navbar3.html">About Us</a></li>
-            <li class=""><a href="navbar4.html">Contact</a></li>
+            <li><a href="navbar3.html">About Us</a></li>
+            <li><a href="navbar4.html">Contact</a></li>
           </ul>
         </nav>
-        <div class="fragment all-sides-ma-4 all-sides-pa-4">
-          <div class="slider">
-            <div class="slider-items">
-              <div class="Oneitem active">
-                <div
-                  class="imgSlide"
-                  style="background-image: url('../images/1.jpg');"
-                  ;
-                ></div>
-                <div class="captionSlide">
-                  <div class="textS Main-black">
-                    <h1>Yorkshire Tea</h1>
-                    <p>Taylors</p>
-                  </div>
-                </div>
-              </div>
-              <div class="Oneitem">
-                <div
-                  class="imgSlide"
-                  style="background-image: url('../images/2low.jpg');"
-                  ;
-                ></div>
-                <div class="captionSlide">
-                  <div class="textS Main-black">
-                    <h1>Swachh Tea</h1>
-                    <p>Tea Spa</p>
-                  </div>
-                </div>
-              </div>
-              <div class="Oneitem">
-                <div
-                  class="imgSlide"
-                  style="background-image: url('../images/3.jpg');"
-                  ;
-                ></div>
-                <div class="captionSlide all-sides-pa-3">
-                  <div class="textS Main-black">
-                    <h1>Perfect Brewing Coffee Co.</h1>
-                    <p>Original Blend</p>
-                  </div>
-                </div>
-              </div>
-            </div>
 
-            <!-- Slider controls -->
+        <h1 class="centerGroup text-center">Tea & Coffee</h1>
+        <!-- <h2>Welcome to Tea & Coffee!</h2> -->
 
-            <div class="controlsSlide">
-              <div class="prevS">&lt;</div>
-              <div class="nextS">&gt;</div>
-            </div>
-
-            <!-- /Slider controls  -->
-
-            <!--Slide info-->
-            <div class="slide-info">
-              <div class="meterS">
-                <div class="innerS"></div>
-              </div>
-              <div class="numberS"></div>
-            </div>
-            <!--/Slide info-->
-
-            <!--Next slide progress meter-->
-            <div class="progressSlide"></div>
-            <!--/Next slide progress meter-->
-          </div>
-        </div>
-
-       
-        <div class="text-center all-sides-ma-4">
-          <h1 class="darkRed_tx darkRed_txfont-3 Sm-font-2 Med-font-1 fontW-2 Main-black ma-RL-1 up">
-           Stories and History
-          </h1>
-          <h2 class=" font-5 Sm-font-4 Med-font-3 lHeight-copy up">
-            <!-- style="text-transform: none !important;" -->
-            Nothing could be better than a hot cup of tea 
-          </h2>
+        <div class="col-1 width50p centerGroup">
+          <p>There's nothing like a healthy refreshment!</p>
+          <p>
+            Our tea bags pack an enormous amount of flavor into their small
+            round pouches. Our unbleached, round tea bags are free of excess
+            wrapping, strings, tags and staples.
+          </p>
+          <p>
+            When you want a convenient cup of green, black, or iced tea, peruse
+            our impressive selection of tea bags and buy the one that suits your
+            mood. Organic and loose leaf teas are also available to make you
+            smile.
+          </p>
         </div>
 
         <!-- Grid -->
-        <div
-          class="col-3 width90p centerGroup all-sides-ma-4"
-          style="border: none !important;"
-        >
-          <div class="col-1-embed" style="border: none !important;">
-            <h2 class="darkRed_tx  up text-center">English Breakfast</h2>
-            <p
-              class="font-5 lHeight-copy MaxW-narrow b-dotted b-light-gray all-sides-pa-2"
-            >
-            It's a black tea blend usually made up of 2-3 different black teas. Made to be robust and strong so that it's to be had with milk and sugar. There is no ONE English breakfast tea blend that everyone uses. Tea companies make their own blend using any combination of Assam, Ceylon, Keemun, or Kenyan black tea.
-            </p>
-          </div style="border: none !important;">
-          <div class="col-1-embed" style="border: none !important;">
-            <h2 class="darkRed_tx  up text-center">Teapot History</h2>
-            <p
-              class="font-5 lHeight-copy MaxW-narrow b-dotted b-light-gray all-sides-pa-2"
-            >
-              The teapot was invented in China during the Yuan Dynasty. It was probably derived from ceramic kettles and wine pots, which were made of bronze and other metals and were a feature of Chinese life for thousands of years. ... By the Ming Dynasty, teapots were widespread in China.
-            </p>
+        <div class="col-3 width90p centerGroup">
+          <div class="col-1-embed">
+            <img src="../images/4.jpg" class="centerGroup" />
+            <p class="text-center">Key Lime Herbal</p>
           </div>
-          <div class="col-1-embed" style="border: none !important;">
-            <h2 class="darkRed_tx up text-center">Teaware History</h2>
-            <p
-              class="font-5 lHeight-copy MaxW-narrow b-dotted b-light-gray all-sides-pa-2"
-            >
-            Teaware is a broad international spectrum of equipment used in the brewing and consumption of tea. Many components make up that spectrum, and vary greatly based upon the type of tea being prepared, and the cultural setting in which it is being prepared. 
-            </p>
-            <!-- This is often referred to as the tea ceremony, and holds much significance in many cultures, particularly in northwestern Europe and in eastern Asia. -->
+          <div class="col-1-embed">
+            <img src="../images/blue.jpg" class="centerGroup" />
+            <p class="text-center">Blue Mango Iced Tea</p>
+          </div>
+          <div class="col-1-embed">
+            <img src="../images/8.jpg" class="centerGroup" />
+            <p class="text-center">Earl Grey Moonlight</p>
           </div>
         </div>
 
         <!-- Table -->
+        <div id="bodyContentTea">
+          <h3 class="text-center">Our Tea & Coffee Products:</h3>
+          <table
+            class="centerGroup stripes border-outline border-row border-grid responsive-table lgihtBrown_bg text-center"
+          >
+            <tr class="white_bg">
+              <th>Products</th>
+              <th>Size</th>
+              <th>Price</th>
+            </tr>
+            <tr>
+              <td>Key Lime Herbal</td>
+              <td>Cup</td>
+              <td>$0.32</td>
+            </tr>
+            <tr class="white_bg">
+              <td>Blue Mango Iced Tea</td>
+              <td>Cup</td>
+              <td>$0.20</td>
+            </tr>
+            <tr>
+              <td>Earl Grey Moonlight</td>
+              <td>Cup</td>
+              <td>$0.15</td>
+            </tr>
+          </table>
+        </div>
       </div>
 
       <footer id="main-footer" class="darkBlue_bg">
